@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.mylistviewslide.MyFrameLayOut
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout">
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="content"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="#888888"/>
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="dele"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="#ff0000"
+        android:clickable="true"
+        android:layout_gravity="right"
+        />
+</com.example.administrator.mylistviewslide.MyFrameLayOut>
